@@ -5,6 +5,7 @@ bool leaf(TreeNode<int>* root){
     else return false;
 }
 
+
 //traversing throught the left nodes...
 void leftnodes(TreeNode<int>* root, vector<int>&ans){
     TreeNode<int>* cur=root;
