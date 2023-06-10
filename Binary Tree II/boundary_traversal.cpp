@@ -2,7 +2,7 @@
 //condition for the leaf nodes...
 bool leaf(TreeNode<int>* root){
     if(root!=nullptr && root->left==nullptr && root->right==nullptr) return true;
-    else return false;
+    else return false; 
 }
 
 
