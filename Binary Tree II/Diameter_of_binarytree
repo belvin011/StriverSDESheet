@@ -8,7 +8,7 @@ int right=solve(root->right,maxi);
 
 maxi=max(maxi,left+right);
 
-return max(left,right)+1;
+return max(left,right)+1; 
 
  
 
